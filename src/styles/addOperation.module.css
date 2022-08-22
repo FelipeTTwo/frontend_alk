@@ -1,0 +1,120 @@
+.add-content {
+  padding: 60px 0 0 50px;
+}
+
+.title {
+  padding: 25px 0 45px 0;
+}
+
+.title span {
+  position: relative;
+  padding-bottom: 2px;
+  font-size: 23px;
+  font-weight: 500;
+  color: #0e2431;
+}
+
+.title span::before,
+.title span::after {
+  content: "";
+  position: absolute;
+  height: 3px;
+  width: 100%;
+  background: #74d2e7;
+  left: 0;
+  bottom: 0;
+}
+
+.title span::after {
+  bottom: -7px;
+  width: 70%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.input-box {
+  width: 70%;
+}
+
+.input-box input {
+  width: 100%;
+  height: 40px;
+  padding: 9px 0 7px 8px;
+  margin: 0;
+  font-size: 12px;
+  border-radius: 3px;
+  outline: none;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  box-sizing: border-box;
+  border: 1px solid #efefef;
+  background-color: #fafafa;
+}
+
+.input-box input:focus {
+  border-color: #bbb;
+}
+
+.input-box textarea {
+  width: 100%;
+  height: 80px;
+  padding: 9px 0 7px 8px;
+  margin: 0;
+  font-size: 12px;
+  border-radius: 3px;
+  outline: none;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  box-sizing: border-box;
+  border: 1px solid #efefef;
+  background-color: #fafafa;
+}
+
+.input-box textarea:focus {
+  border-color: #bbb;
+}
+
+.container-radio {
+  display: flex;
+}
+
+.radio {
+  margin: 0.5rem;
+}
+
+.radio input[type="radio"] {
+  cursor: pointer;
+}
+
+.radio-label {
+  margin-left: 5px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.button-box {
+  position: relative;
+  display: block;
+  margin: 18px 0px;
+  width: 70%;
+}
+
+.button-box button {
+  width: 100%;
+  height: 35px;
+  padding: 0 8px;
+  border-radius: 3px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 26px;
+  outline: none;
+  white-space: nowrap;
+  border: 1px solid #4298b5;
+  color: #fff;
+  background: #4298b5;
+  cursor: pointer;
+}
+
+.button-box button:hover {
+  background: #0085ad;
+}
